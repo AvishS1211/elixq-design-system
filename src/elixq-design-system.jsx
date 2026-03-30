@@ -638,7 +638,6 @@ function Icon({ name, size = 22, color = "currentColor", strokeWidth = 1.5 }) {
       margin: "0 0 16px", ...s,
     }}>{children}</h2>
   );
-}
 
 function InfoCard({ label, value, sub }) {
   return (
